@@ -4,3 +4,9 @@ x64/Release/
 Win32/Release/
 
 Win32/Debug/
+
+.vs/SDLOutput/v16/.suo
+
+*.db
+
+.vs/SDLOutput/v16/Preview/
