@@ -61,7 +61,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testsurround", "..\SDL\VCToOtherDir\tests\testsurround\testsurround.vcxproj", "{70B894A9-E306-49E8-ABC2-932A952A5E5F}"
 EndProject
 #SDL_Image projects
-
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SDL2_image", "..\SDL_image\VCToOtherDir\SDL_image.vcxproj", "{2BD5534E-00E2-4BEA-AC96-D9A92EA24696}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "showimage", "..\SDL_image\VCToOtherDir\showimage\showimage.vcxproj", "{FEE80C5D-762E-4E57-9BCB-928749E8203F}"
+EndProject
 #SDL_net projects
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SDL2_net", "..\SDL_net\VCToOtherDir\SDL_net.vcxproj", "{8AB3504F-5E58-4910-AFE8-7A1E595AC3F4}"
 EndProject
@@ -301,7 +304,22 @@ Global
 		{70B894A9-E306-49E8-ABC2-932A952A5E5F}.Release|x64.ActiveCfg = Release|x64
 		{70B894A9-E306-49E8-ABC2-932A952A5E5F}.Release|x64.Build.0 = Release|x64
 #SDL_Image projects
-
+		{2BD5534E-00E2-4BEA-AC96-D9A92EA24696}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2BD5534E-00E2-4BEA-AC96-D9A92EA24696}.Debug|Win32.Build.0 = Debug|Win32
+		{2BD5534E-00E2-4BEA-AC96-D9A92EA24696}.Debug|x64.ActiveCfg = Debug|x64
+		{2BD5534E-00E2-4BEA-AC96-D9A92EA24696}.Debug|x64.Build.0 = Debug|x64
+		{2BD5534E-00E2-4BEA-AC96-D9A92EA24696}.Release|Win32.ActiveCfg = Release|Win32
+		{2BD5534E-00E2-4BEA-AC96-D9A92EA24696}.Release|Win32.Build.0 = Release|Win32
+		{2BD5534E-00E2-4BEA-AC96-D9A92EA24696}.Release|x64.ActiveCfg = Release|x64
+		{2BD5534E-00E2-4BEA-AC96-D9A92EA24696}.Release|x64.Build.0 = Release|x64
+		{FEE80C5D-762E-4E57-9BCB-928749E8203F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FEE80C5D-762E-4E57-9BCB-928749E8203F}.Debug|Win32.Build.0 = Debug|Win32
+		{FEE80C5D-762E-4E57-9BCB-928749E8203F}.Debug|x64.ActiveCfg = Debug|x64
+		{FEE80C5D-762E-4E57-9BCB-928749E8203F}.Debug|x64.Build.0 = Debug|x64
+		{FEE80C5D-762E-4E57-9BCB-928749E8203F}.Release|Win32.ActiveCfg = Release|Win32
+		{FEE80C5D-762E-4E57-9BCB-928749E8203F}.Release|Win32.Build.0 = Release|Win32
+		{FEE80C5D-762E-4E57-9BCB-928749E8203F}.Release|x64.ActiveCfg = Release|x64
+		{FEE80C5D-762E-4E57-9BCB-928749E8203F}.Release|x64.Build.0 = Release|x64
 #SDL_net projects
 		{8AB3504F-5E58-4910-AFE8-7A1E595AC3F4}.Debug|Win32.ActiveCfg = Debug|Win32
 		{8AB3504F-5E58-4910-AFE8-7A1E595AC3F4}.Debug|Win32.Build.0 = Debug|Win32
